@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CFA05AC-F380-45AA-BCC6-94AC4E84D7D1}</ProjectGuid>
+    <ProjectGuid>{DF68EBE9-090B-4DF6-86AB-14631B56B9D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Boilerplate</RootNamespace>
-    <AssemblyName>Boilerplate</AssemblyName>
+    <RootNamespace>Boilerplate.Tests</RootNamespace>
+    <AssemblyName>Boilerplate.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoilerplateApp.cs" />
+    <Compile Include="BoilerplateTestsApp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TemplateReader.cs" />
-    <Compile Include="Types.cs" />
+    <Compile Include="TestFramework.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

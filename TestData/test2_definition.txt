@@ -1,0 +1,4 @@
+name=one;ext=.h
+name=one;ext=.cpp
+name=two;ext=.h
+name=two;ext=.cpp

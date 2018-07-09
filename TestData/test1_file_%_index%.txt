@@ -1,0 +1,2 @@
+Multi-line
+contents for test 1, file %name%
